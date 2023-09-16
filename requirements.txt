@@ -57,6 +57,7 @@ six==1.16.0
 smmap==5.0.0
 streamlit==1.26.0
 tenacity==8.2.3
+tensorflow==2.13.*
 termcolor==2.3.0
 threadpoolctl==3.2.0
 toml==0.10.2
