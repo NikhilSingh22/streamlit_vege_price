@@ -93,7 +93,7 @@ if st.button("Predict Price"):
         model.compile(optimizer='adam', loss='mean_squared_error')
 
         # Train the model (same as in your code)
-        model.fit(X, y, epochs=5, batch_size=32)
+        model.fit(X, y, epochs=2, batch_size=32)
 
         # Predict today's vegetable price
         last_sequence = target_scaled[-sequence_length:].reshape(1, sequence_length, 1)
